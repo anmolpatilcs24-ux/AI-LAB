@@ -1,0 +1,17 @@
+VACUUM CLEANER - SIMPLE REFLEX AGENT
+Enter status of Room A (D/C): d
+Enter status of Room B (D/C): c
+Enter starting position (A/B): a
+
+Initial State:
+Room A: D
+Room B: C
+Vacuum Position: A
+
+--- SIMPLE REFLEX AGENT ---
+
+Vacuum is in Room A
+State: ['A', 'D']
+Action: SUCK
+Both rooms are clean.
+Action: STOP
