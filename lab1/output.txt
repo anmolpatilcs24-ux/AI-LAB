@@ -1,0 +1,261 @@
+TIC-TAC-TOE BRUTE FORCE STATE SPACE
+------------------------------------
+
+Enter the partially filled board.
+Use X, O and - for empty cells.
+
+Enter row 1 (example: X O -): o - x
+Enter row 2 (example: X O -): x - -
+Enter row 3 (example: X O -): x o o
+
+Initial State:
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+Next player: X
+
+Starting brute-force state-space search...
+
+==============================
+TERMINAL STATE
+==============================
+
+
+O | X | X
+--+---+--
+X | O | -
+--+---+--
+X | O | O
+
+Winner: O
+Path Cost: 2
+
+Path:
+
+Step 0 (Cost = 0 )
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 1 (Cost = 1 )
+
+
+O | X | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 2 (Cost = 2 )
+
+
+O | X | X
+--+---+--
+X | O | -
+--+---+--
+X | O | O
+
+
+==============================
+TERMINAL STATE
+==============================
+
+
+O | X | X
+--+---+--
+X | X | O
+--+---+--
+X | O | O
+
+Winner: X
+Path Cost: 3
+
+Path:
+
+Step 0 (Cost = 0 )
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 1 (Cost = 1 )
+
+
+O | X | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 2 (Cost = 2 )
+
+
+O | X | X
+--+---+--
+X | - | O
+--+---+--
+X | O | O
+
+
+Step 3 (Cost = 3 )
+
+
+O | X | X
+--+---+--
+X | X | O
+--+---+--
+X | O | O
+
+
+==============================
+TERMINAL STATE
+==============================
+
+
+O | - | X
+--+---+--
+X | X | -
+--+---+--
+X | O | O
+
+Winner: X
+Path Cost: 1
+
+Path:
+
+Step 0 (Cost = 0 )
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 1 (Cost = 1 )
+
+
+O | - | X
+--+---+--
+X | X | -
+--+---+--
+X | O | O
+
+
+==============================
+TERMINAL STATE
+==============================
+
+
+O | O | X
+--+---+--
+X | X | X
+--+---+--
+X | O | O
+
+Winner: X
+Path Cost: 3
+
+Path:
+
+Step 0 (Cost = 0 )
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 1 (Cost = 1 )
+
+
+O | - | X
+--+---+--
+X | - | X
+--+---+--
+X | O | O
+
+
+Step 2 (Cost = 2 )
+
+
+O | O | X
+--+---+--
+X | - | X
+--+---+--
+X | O | O
+
+
+Step 3 (Cost = 3 )
+
+
+O | O | X
+--+---+--
+X | X | X
+--+---+--
+X | O | O
+
+
+==============================
+TERMINAL STATE
+==============================
+
+
+O | - | X
+--+---+--
+X | O | X
+--+---+--
+X | O | O
+
+Winner: O
+Path Cost: 2
+
+Path:
+
+Step 0 (Cost = 0 )
+
+
+O | - | X
+--+---+--
+X | - | -
+--+---+--
+X | O | O
+
+
+Step 1 (Cost = 1 )
+
+
+O | - | X
+--+---+--
+X | - | X
+--+---+--
+X | O | O
+
+
+Step 2 (Cost = 2 )
+
+
+O | - | X
+--+---+--
+X | O | X
+--+---+--
+X | O | O
